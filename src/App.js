@@ -119,7 +119,7 @@ function App() {
   ]
   const[currentPlan,setCurrentPlan]=useState([])
   let handleSelectedBtn=(plan)=>{
-    setCurrentPlan(arr =>[...arr,plan]);
+    setCurrentPlan(plan);
   }
   return (
     <>
